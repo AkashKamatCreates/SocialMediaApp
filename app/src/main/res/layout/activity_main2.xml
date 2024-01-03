@@ -7,6 +7,8 @@
     tools:context=".MainActivity2">
 
 
+    
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
@@ -22,6 +24,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+
+    
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -86,6 +90,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLogout"
         android:layout_width="334dp"
@@ -98,4 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
+
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
